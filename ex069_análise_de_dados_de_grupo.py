@@ -1,4 +1,4 @@
-print('{:=^100}'.format(' EXERCÍCIO 0690 '))
+print('{:=^100}'.format(' EXERCÍCIO 069 '))
 print('{:=^100}\n'.format(' Análise de Dados de Grupo '))
 
 hom = mul = maisDezoito = menosVinte = 0
