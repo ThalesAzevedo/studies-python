@@ -1,0 +1,20 @@
+exer='EXERCÍCIO 04'
+tema='Descobrindo Caracteristicas de Variáveis'
+print('{:=^100}'.format(exer))
+print('{:=^100}'.format(tema))
+print('')
+
+print('Se eu não definir a entrada de dado, ela sempre entrará como uma STRING, mas eu posso descobrir \ncaracterísticas da entrada. Por exemplo:')
+dado=input('Digite um dado qualquer:')
+print('')
+print('Qual a classe desse dado?', dado.__class__)
+print('É um número? ', dado.isnumeric())
+print('É decimal?', dado.isdecimal())
+print('É alfabético?', dado.isalpha())
+print('É alfanumérico?', dado.isalnum())
+print('ESTÁ TUDO MAIUSCULO?', dado.isupper())
+print('está tudo minúsculo?', dado.islower())
+print('Está coma  primeira letra Maiúscula?', dado.istitle())
+print('É só espaço?', dado.isspace())
+print('')
+print('Essas informações são necessárias caso alguma variável precise ser convertido para outro tipo')
